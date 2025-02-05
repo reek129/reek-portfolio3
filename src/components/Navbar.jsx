@@ -5,7 +5,7 @@ import { navLinks } from '../constants';
 import { styles } from '../styles';
 import {FaGithubSquare , FaLinkedin } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
-
+// import resumeUrl from "../../src/assets/"
 
 
 
@@ -14,7 +14,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Reek_Resume.pdf';
+    // const resumeUrl = '/Reek_Resume.pdf';
+    const resumeUrl = `${import.meta.env.BASE_URL}/Reek_Resume.pdf`;
+
     window.open(resumeUrl);
   };
 

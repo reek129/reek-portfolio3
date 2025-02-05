@@ -42,12 +42,7 @@ import soccer_visualization from "./projects/soccer_visualization.png"
 import unreal from "./projects/unreal.png"
 import multi_task from "./projects/depth_maps.png"
 
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
-import CompileVortex from "./projects/CompileVortex.png";
+
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -104,12 +99,7 @@ export {
   tracr,
   tailwind,
   threejs,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  mhft,
-  sketcher,
-  CompileVortex,
+ 
   logo,
   menu,
   close,
