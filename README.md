@@ -13,6 +13,10 @@
 
 Experience the live portfolio at [https://reek129.github.io/reek-portfolio3/]
 
+## Improvement
+
+npm run build
+npm run deploy
 
 
 ## 📄 License
