@@ -21,7 +21,7 @@ const Hero = () => {
             I do
             <Typewriter
               options={{
-                strings: ["Machine Learning", "Deep Learning", "Natural Language Processing", "Frontend Development","CyberSecurity Analysis", "Quantum Machine Learning"],
+                strings: ["Machine Learning", "Deep Learning", "Natural Language Processing", "Frontend Development","AI in CyberSecurity Analysis", "Quantum Machine Learning"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,

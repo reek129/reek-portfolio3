@@ -44,7 +44,7 @@ const About = () => {
      <motion.div variants={textVariant()} className="w-full md:w-1/3 flex justify-center">
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
         
-        <img src="src\assets\my_pic.jpg" alt="Profile" className="w-full max-w-xs rounded-lg shadow-lg" />
+        <img src="/public/my_pic.jpg" alt="Profile" className="w-full max-w-xs rounded-lg shadow-lg" />
       </motion.div>
 
       <motion.p
