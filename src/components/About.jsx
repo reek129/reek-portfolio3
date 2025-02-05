@@ -5,6 +5,8 @@ import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
+import mypic from "../assets/workX/my_pic.png"
+import mypic2 from "../assets/workX/my_pic2.png"
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[120px] w-full">
@@ -44,7 +46,7 @@ const About = () => {
      <motion.div variants={textVariant()} className="w-full md:w-1/3 flex justify-center">
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
         
-        <img src="/my_pic.jpg" alt="Profile" className="w-full max-w-xs rounded-lg shadow-lg" />
+        <img src= {mypic2} alt="Profile" className="w-full max-w-xs rounded-lg shadow-lg" />
       </motion.div>
 
       <motion.p
