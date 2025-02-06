@@ -48,6 +48,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "publication",
+    title: "Publication",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -179,6 +183,83 @@ export const experiences = [
     ],
   },
 ];
+
+export const publications = [
+  {
+    title: "Learning Analytics of Humanities Course: Reader Profiles in Critical Reading Activity",
+    description: "A study investigating learner reading behaviors in a critical reading task using learning analytics techniques.",
+    authors: "Rwitajit Majumdar, Geetha Bakilapadavu, Reek Majumder, Mei-Rong Alice Chen, Brendan Flanagan, Hiroaki Ogata",
+    venue: "Research and Practice in Technology Enhanced Learning",
+    year: "2021",
+    link: "https://doi.org/10.1186/s41039-021-00164-w"
+  },
+  {
+    title: "Hybrid Classical-Quantum Deep Learning Models for Autonomous Vehicle Traffic Image Classification Under Adversarial Attack",
+    description: "A study on hybrid deep-learning models combining quantum and classical layers for resilient traffic sign classification in autonomous vehicles under adversarial attacks.",
+    authors: "Reek Majumder, Sakib Mahmud Khan, Fahim Ahmed, Zadid Khan, Frank Ngeni, Gurcan Comert, Judith Mwakalonge, Dimitra Michalaka, Mashrur Chowdhury",
+    venue: "ArXiv Preprint",
+    year: "2021",
+    link: "https://arxiv.org/abs/2108.01125"
+},
+{
+  title: "Threats of Trojan Incursion in Transportation Hardware",
+  description: "An analysis of hardware security vulnerabilities in transportation systems, focusing on Trojan threats in integrated circuits and their potential impacts.",
+  authors: "Jean Michel Tine, Sefatun-Noor Puspa, Reek Majumdar, Gurcan Comert, Mashrur Chowdhury, Yingjie Lao",
+  venue: "IEEE International Automated Vehicle Validation Conference (IAVVC)",
+  year: "2023",
+  link: "https://doi.org/10.1109/IAVVC57316.2023.10328068"
+},
+{
+  title: "Evaluating Quantum Machine Learning Approaches for Histopathological Cancer Detection: Classical, Hybrid Simulation, and IBM Quantum Computing",
+  description: "A study on hybrid quantum-classical transfer learning models for histopathological cancer detection, comparing classical models, quantum simulators, and IBM's real quantum computers.",
+  authors: "Biswaraj Baral, Reek Majumdar, Bhavika Bhalgamiya, Taposh Dutta Roy",
+  venue: "IEEE International Conference on Quantum Computing and Engineering (QCE)",
+  year: "2023",
+  link: "https://doi.org/10.1109/QCE57702.2023.10222"
+},
+{
+  title: "Data-Driven Defenses Against Adversarial Attacks for Autonomous Vehicles",
+  description: "An analysis of adversarial attacks on deep learning models used in autonomous vehicles, evaluating the effectiveness of various defense strategies against FGSM, BIM, and PGD attacks.",
+  authors: "Omar A. Azim, Lex Baker, Reek Majumder, Abyad Enan, Sakib M. Khan, Mashrur A. Chowdhury",
+  venue: "IEEE International Automated Vehicle Validation Conference (IAVVC)",
+  year: "2023",
+  link: "https://doi.org/10.1109/IAVVC57316.2023.10328098"
+},
+{
+  title: "Optimal Traffic Flow in Quantum Annealing-Supported Virtual Traffic Lights",
+  description: "A study on leveraging quantum annealing for optimizing virtual traffic light (VTL) systems in connected vehicle environments to reduce stopped delays at intersections.",
+  authors: "Abyad Enan, M Sabbir Salek, Mashrur Chowdhury, Gurcan Comert, Sakib M. Khan, Reek Majumder",
+  venue: "ArXiv Preprint",
+  year: "2024",
+  link: "https://arxiv.org/abs/2412.18776"
+},
+{
+  title: "Graph-Powered Defense: Controller Area Network Intrusion Detection for Unmanned Aerial Vehicles",
+  description: "A study on developing a protocol-independent intrusion detection system (IDS) for UAVCAN networks using graph-based machine learning models to detect cyber-attacks on UAV CAN bus networks.",
+  authors: "Reek Majumder, Gurcan Comert, David Werth, Adrian Gale, Mashrur Chowdhury, M Sabbir Salek",
+  venue: "ArXiv Preprint",
+  year: "2024",
+  link: "https://arxiv.org/abs/2412.02539"
+},
+{
+  title: "An AI-Enabled Side Channel Power Analysis Based Hardware Trojan Detection Method for Securing the Integrated Circuits in Cyber-Physical Systems",
+  description: "A study on using AI-powered side-channel power analysis for detecting hardware Trojans in integrated circuits to enhance the security of cyber-physical systems.",
+  authors: "Sefatun-Noor Puspa, Abyad Enan, Reek Majumdar, M Sabbir Salek, Gurcan Comert, Mashrur Chowdhury",
+  venue: "ArXiv Preprint",
+  year: "2024",
+  link: "https://arxiv.org/abs/2411.12721"
+},
+{
+  title: "Development and Evaluation of Ensemble Learning-Based Environmental Methane Detection and Intensity Prediction Models",
+  description: "A study on the development of ensemble learning models for detecting and predicting the intensity of environmental methane (CH4) emissions using meteorological data and machine learning techniques.",
+  authors: "Reek Majumder, Jacquan Pollard, M Sabbir Salek, David Werth, Gurcan Comert, Adrian Gale, Sakib Mahmud Khan, Samuel Darko, Mashrur Chowdhury",
+  venue: "Environmental Health Insights",
+  year: "2024",
+  link: "https://doi.org/10.1177/11786302241227307"
+}
+
+];
+
 
 export const projects = [
   {
