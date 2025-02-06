@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const toggleResume = () => {
     // const resumeUrl = '/Reek_Resume.pdf';
-    const resumeUrl = `${import.meta.env.BASE_URL}/Reek_Resume.pdf`;
+    const resumeUrl = `${import.meta.env.BASE_URL}/Reek_Resume3.pdf`;
 
     window.open(resumeUrl);
   };
